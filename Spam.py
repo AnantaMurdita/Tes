@@ -11,7 +11,7 @@ banner = """\t_______________________________________
 \tYb   dP 88 8I   dY   88  Yb   dP d'`Y8b 
 \t YbodP  88 8888Y"    88   YbodP  `bodP' 
 \t_______________________________________
-\t       Spam WhatsApp No Brutall
+\thttps://chat.whatsapp.com/FbGgg50PtQaK1IBPpSgZ0H
 \t======================================="""
 print (banner) 
 time.sleep (1)
