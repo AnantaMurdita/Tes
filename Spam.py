@@ -13,7 +13,7 @@ banner = """\t_______________________________________
 \t_______________________________________
 \t       Spam WhatsApp No Brutall
 \t======================================="""
-print (banner)
+print (banner) 
 time.sleep (1)
 banner = """==================================================
 [+] Author  : OID108 / Mr.DOY108               [+]
@@ -25,7 +25,7 @@ banner = """==================================================
 print (banner)
 time.sleep (2)
 
-nomer = input("Nomer :")
+nomer = input("Nomer : 0")
 jumlah = int(input("Jumlah :"))
 
 #ini headers
@@ -34,13 +34,13 @@ headers = {
 }
 
 #Ini Data
-data_segari = json.dumps({Input Your Data Website})
+data = json.dumps({Input Your Data Website})
 
 #ini Perintah
 
 for k in range(jumlah):
 
-  pos = requests.post("Input your url website",headers=header,data=data).text
+  pos = requests.post("Input your url website",headers=headers,data=data).text
 
   if "Send successfully" in pos:
 
@@ -48,4 +48,4 @@ for k in range(jumlah):
 
   else:
 
-    print("Spam WhatsApp Berhasil")
+    print("Spam WhatsApp Gagal")
