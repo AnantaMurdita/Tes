@@ -1,2 +1,6 @@
 # Dasar
 Yang Gw Sering Gunakan Di Sc...
+
+# Support Gw
+https://saweria.co/OID108
+dari kalian ke diri kalian...
