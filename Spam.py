@@ -16,9 +16,9 @@ banner = """\t_______________________________________
 print (banner) 
 time.sleep (1)
 banner = """==================================================
-[+] Author  : OID108 / Mr.DOY108               [+]
+[+] Author  : OID108 Ft Team Support           [+]
 [+] Team    : DOY X-PUNTEN                     [+]
-[+]           Solo Timur Cyber Team            [+]
+[+]           Jateng X-JAWIR                   [+]
 [+] Youtube : OID108                           [+]
 [+] Github  : https://github.com/oranginisiald [+]
 =================================================="""
