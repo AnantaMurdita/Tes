@@ -1,51 +1,12 @@
-import requests,json,os,time
-from requests import post
-from requests import get
+import os, sys, requests, random, json, string
 
-#system
-time.sleep (1)
-os.system ("clear")
-banner = """\t_______________________________________
-\t dP"Yb  88 8888b.    .d   dP"Yb  .dP"o. 
-\tdP   Yb 88 8I   Yb .d88  dP   Yb `8b.d' 
-\tYb   dP 88 8I   dY   88  Yb   dP d'`Y8b 
-\t YbodP  88 8888Y"    88   YbodP  `bodP' 
-\t_______________________________________
-\thttps://chat.whatsapp.com/FbGgg50PtQaK1IBPpSgZ0H
-\t======================================="""
-print (banner) 
-time.sleep (1)
-banner = """==================================================
-[+] Author  : OID108 Ft Team Support           [+]
-[+] Team    : DOY X-PUNTEN                     [+]
-[+]           Jateng X-JAWIR                   [+]
-[+] Youtube : OID108                           [+]
-[+] Github  : https://github.com/oranginisiald [+]
-=================================================="""
-print (banner)
-time.sleep (2)
-
-nomer = input("Nomer : 0")
-jumlah = int(input("Jumlah :"))
-
-#ini headers
-headers = {
-
-}
-
-#Ini Data
-data = json.dumps({Input Your Data Website})
-
-#ini Perintah
-
-for k in range(jumlah):
-
-  pos = requests.post("Input your url website",headers=headers,data=data).text
-
-  if "Send successfully" in pos:
-
-    print("Spam WhatsApp Berhasil")
-
-  else:
-
-    print("Spam WhatsApp Gagal")
+def respound(nom):
+  bibit = requests.post("https://api.bibit.id/auth/register/phone",headers={'Host':'api.bibit.id','accept':'application/json, text/plain, */*','content-type':'application/json','sec-ch-ua-mobile':'?1','x-platform':'web','user-agent':'Mozilla/5.0 (Linux; Android 11; CPH2325) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36','sec-ch-ua-platform':'"Android"','origin':'https://app.bibit.id','sec-fetch-site':'same-site','sec-fetch-mode':'cors','sec-fetch-dest':'empty','referer':'https://app.bibit.id/','accept-encoding':'gzip, deflate, br','accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'},data=json.dumps({"code":"62","phone":nom,"via":"whatsapp","recaptcha_token":"","recaptcha_type":"v3"})).text #Bibit api
+  
+def main():
+  os.system("clear")
+  nom = input(f"masukan nomor : 0")
+  respound(nom)
+  
+  
+main()
