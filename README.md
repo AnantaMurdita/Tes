@@ -1,5 +1,5 @@
 # Dasar
 Yang Sering Digunakan
 
-# Support kalian
+# Support kita
 dari kalian ke kalian.
