@@ -1,6 +1,5 @@
 # Dasar
-Yang Gw Sering Gunakan Di Sc...
+Yang Sering Digunakan
 
-# Support Gw
-https://saweria.co/OID108
-dari kalian ke diri kalian...
+# Support kalian
+dari kalian ke kalian.
