@@ -7,6 +7,11 @@ def main():
   os.system("clear")
   nom = input(f"masukan nomor : 0")
   respound(nom)
+  respound(nom) 
+  respound(nom) 
+  respound(nom)
+  respound(nom) 
+  respound(nom)
   
   
 main()
